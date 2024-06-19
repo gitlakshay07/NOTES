@@ -1,0 +1,39 @@
+git config --global user.name "username"
+git config --global user.email "email"
+
+git init
+git status
+git add .
+git commit -m "commit" <file name>
+git remote set-url origin <URL>
+git remote add-url origin <URL>
+
+git push -u origin <branch-name>
+git pull -u origin <branch-name>
+Git push --set-upstream origin <branch-name>
+
+git branch -> show all branch
+git branch Bname -> create branch
+git checkout Bname -> switch to create branch
+
+git checkout <name> -> move to branch
+git pull origin <b-name> -> up to date 
+
+TO MERGE BRANCH
+git branch --merged 
+git merge Bname 
+
+
+git push origin <b-name> -> push changes
+
+git clone <URl>
+
+OTHERS 
+
+git reset -> make file untracked 
+.gitIgnore -> files not want
+*.<.html/css> -> all file will ignore of this name 
+
+GIT HUB ADVANCED
+git diff <file name> ->To see difference of change -> git diff <file name>
+Git add -p <fileName> -> multiple me se single change in file 

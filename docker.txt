@@ -1,0 +1,22 @@
+docker run -d => for detached mode
+docker run --rm => for remove by command when we stop container 
+docker run -p 3000:3000 => to assign ports 
+
+docker run -d --rm --name"my1stcontainer" -p 3000:3000 <image id/name>
+
+docker ps => show all container running currently 
+docker ps -a => show all container running + not running currently
+
+docker stop <id/name>
+
+docker image ls => show list of images 
+
+DOCKERR VOLMES 
+
+docker run -v HOST MACHINE FOLDER PATH : WORKING DIRECTORY OF CONTAINER 
+
+DOCKER COMPOSE 
+
+docker-compose up -d 
+docker-compose down => stop + remove container 
+docker-compose -v => delete networks + volume also with container 
