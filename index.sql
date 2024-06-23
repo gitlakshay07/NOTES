@@ -29,7 +29,7 @@ USE GURUKULAM;
 CREATE TABLE employs(
 id int primary key,
 name varchar(50),
-salary int not null
+salary int not null DEFAULT 25000
 );
 
 INSERT INTO employs VALUES(1,"AMAN",25000);
@@ -73,12 +73,13 @@ SELECT name,marks FROM student;
 SELECT DISTINCT CITY FROM student; 
 
 SELECT name,marks,city FROM student WHERE marks > 80 AND city = "mumbai";
+SELECT name,marks,city FROM student WHERE marks > 80 OR city = "mumbai";
 
 SELECT * FROM student WHERE marks BETWEEN 80 AND 90;
 SELECT * FROM student WHERE city IN ("mumbai","delhi");
 SELECT * FROM student WHERE city NOT IN ("mumbai","delhi");
 
-SELECT * FROM student LIMIT 4;
+SELECT * FROM student LIMIT 4; --(limit table by four)
 
 SELECT * FROM student ORDER BY marks ASC LIMIT 3;
 
@@ -103,9 +104,12 @@ ORDER BY city ASC;
 for safe mode on/off
 SET SQL_SAFE_UPDATES = 0/1
 
-UPDATE student SET grade = "O" WHERE grade = "A";
+UPDATE student
+SET grade = "O"
+WHERE grade = "A";
 
-DELETE FROM student WHERE marks < 33;
+DELETE FROM student 
+WHERE marks < 33;
 
 -- FOREIGN KEY QUERY
 

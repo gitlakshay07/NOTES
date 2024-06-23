@@ -31,6 +31,7 @@ git clone <URl>
 OTHERS 
 
 git reset -> make file untracked 
+git rm -r --cached . (to removed cached from git for git ignore)
 .gitIgnore -> files not want
 *.<.html/css> -> all file will ignore of this name 
 
