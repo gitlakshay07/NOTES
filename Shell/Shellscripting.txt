@@ -1,0 +1,22 @@
+// Shell CMDS
+
+ls -ltr -> All info of files and folder
+man (any Cmd) -> Help Section open for perticular cmd 
+vi / vim (fileName) - opens with write
+touch (fileName) -> Create file 
+mkdir (fileName) -> Create folder 
+
+vi first.sh 
+
+:wq! -> save file 
+:q! -> quit file 
+
+cat -> show file data
+
+./(fileName) | sh (fileName) -> for Exec file 
+
+chmod -> grant permision for file 
+777 -> grant permision to everyone
+400    Allow read by owner.
+200    Allow write by owner.
+100    For files, allow execution by owner.
