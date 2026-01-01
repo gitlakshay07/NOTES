@@ -17,6 +17,15 @@ cat -> show file data
 
 chmod -> grant permision for file 
 777 -> grant permision to everyone
+444 -> read permision to everyone
 400    Allow read by owner.
 200    Allow write by owner.
 100    For files, allow execution by owner.
+
+pwd
+
+top -> Get all Info of System
+
+df -> printing disk space
+free -> getting free memory on disk
+nproc -> analyzing no of CPU's
