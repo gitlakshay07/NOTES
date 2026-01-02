@@ -29,3 +29,6 @@ top -> Get all Info of System
 df -> printing disk space
 free -> getting free memory on disk
 nproc -> analyzing no of CPU's
+
+# GOTO nodeHealth.sh 
+
